@@ -1,0 +1,108 @@
+
+body {
+   margin: 0px;
+   text-align: center;
+   font-family: 'Crimson Text', serif;
+}
+
+h1{
+   margin-top: 35px;
+   font-family: 'Satisfy', cursive;
+   font-size: 80px;
+   font-weight: normal;
+   line-height: 3;
+}
+
+hr{
+   border: dotted;
+   border-color: rgb(157, 154, 154);
+   width: 10%;
+
+}
+h2 {
+   font-family: 'Signika', sans-serif;
+   color: #449c9c;
+} 
+
+p {
+   padding-bottom: 20px;
+   font-size: 20px;
+}
+
+ .top-container {
+   background-color:rgb(206, 246, 246);
+   position: relative;
+   padding-top: 100px ;
+
+}
+
+.profile img {
+   margin-top: 80px;
+   height: 135px; 
+   border-radius: 100%;
+}
+
+.skill-row img{
+   margin-top: 20px;
+   height: 135px;
+   border-radius: 100%;
+   float: left ;
+  
+}
+
+.bottom-cloud {
+   position: absolute;
+   left: 200px;
+}
+
+.top-cloud {
+   position: absolute;
+   right: 120px;
+}
+
+.bottom-container{
+   margin-top: 15px;
+    color: #11999E;
+    background-color: rgb(206, 246, 246);
+    padding: 40px 0 10px;
+    margin-top: 50px;
+}
+
+.skill-row {
+   width: 50%;
+   margin: 100px auto 100px auto;
+}
+
+.btn {
+   background: #449c9c;
+   background-image: -webkit-linear-gradient(top, #449c9c, #0f9987);
+   background-image: -moz-linear-gradient(top, #449c9c, #0f9987);
+   background-image: -ms-linear-gradient(top, #449c9c, #0f9987);
+   background-image: -o-linear-gradient(top, #449c9c, #0f9987);
+   background-image: linear-gradient(to bottom, #449c9c, #0f9987);
+   -webkit-border-radius: 10;
+   -moz-border-radius: 10;
+   border-radius: 10px;
+   font-family: Arial;
+   color: #ffffff;
+   font-size: 20px;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+ }
+ 
+ .btn:hover {
+   background: #5adac6;
+   background-image: -webkit-linear-gradient(top, #23cfb5, #4cd9c1);
+   background-image: -moz-linear-gradient(top, #23cfb5, #4cd9c1);
+   background-image: -ms-linear-gradient(top, #23cfb5, #4cd9c1);
+   background-image: -o-linear-gradient(top, #23cfb5, #4cd9c1);
+   background-image: linear-gradient(to bottom, #23cfb5, #4cd9c1);
+   text-decoration: none;
+ }
+a {
+   margin: 10px 20px;
+   text-decoration: none;
+}
+a:hover {
+   color: #797171;
+}
